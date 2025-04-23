@@ -62,8 +62,8 @@
   }
 
   .hero__image {
-    width: 768;
-    height: 480;
+    width: 768px;
+    height: 480px;
   }
 }
 
@@ -73,7 +73,7 @@
     font-weight: 900;
     font-size: 40px;
     line-height: 44px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: center;
   }
 
@@ -87,7 +87,7 @@
   }
 
   .hero__image {
-    width: 768;
-    height: 480;
+    width: 320px;
+    height: 200px;
   }
 }
