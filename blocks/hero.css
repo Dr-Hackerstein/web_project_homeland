@@ -12,7 +12,7 @@
 }
 
 .hero__title {
-  font-family: Inter;
+  font-family: "Inter";
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
@@ -23,7 +23,7 @@
 }
 
 .hero__description {
-  font-family: Inter;
+  font-family: "Inter";
   font-weight: 400;
   font-size: 30px;
   line-height: 36px;
@@ -44,7 +44,7 @@
   }
 
   .hero__title {
-    font-family: Inter;
+    font-family: "Inter";
     font-weight: 900;
     font-size: 75px;
     line-height: 79px;
@@ -53,7 +53,7 @@
   }
 
   .hero__description {
-    font-family: Inter;
+    font-family: "Inter";
     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
@@ -69,7 +69,7 @@
 
 @media screen and (max-width: 319px) {
   .hero__title {
-    font-family: Inter;
+    font-family: "Inter";
     font-weight: 900;
     font-size: 40px;
     line-height: 44px;
@@ -78,7 +78,7 @@
   }
 
   .hero__description {
-    font-family: Inter;
+    font-family: "Inter";
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
