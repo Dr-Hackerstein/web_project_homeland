@@ -4,8 +4,8 @@
   justify-content: flex-start;
   max-width: 830px;
   max-height: 607px;
-
   margin: 0;
+  margin-left: 100px;
 }
 
 .about__title {
