@@ -3,13 +3,12 @@
   flex-direction: column;
   justify-content: flex-start;
   max-width: 830px;
-  max-height: 607px;
-  margin: 0;
-  margin-left: 100px;
+  max-height: none;
+  margin: 0 auto;
 }
 
 .about__title {
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
@@ -19,7 +18,7 @@
 }
 
 .about__quote {
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
@@ -29,7 +28,7 @@
 }
 
 .about__author {
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
@@ -39,11 +38,117 @@
   margin-bottom: 0;
 }
 .about__description {
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 163%;
   letter-spacing: 0;
   margin-top: 32px;
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 auto;
+  }
+
+  .about__title {
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 49px;
+    letter-spacing: 0;
+    margin-top: 88px;
+    margin-bottom: 0;
+  }
+
+  .about__quote {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0;
+    margin-top: 36px;
+    margin-bottom: 0;
+  }
+
+  .about__author {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0;
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 0;
+    max-width: 720px;
+  }
+
+  .about__description {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    letter-spacing: 0;
+    margin-top: 32px;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 auto;
+  }
+
+  .about__title {
+    max-width: 288px;
+    max-height: 175px;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 0;
+    margin-top: 45px;
+    margin-bottom: 0;
+  }
+
+  .about__quote {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0;
+    margin-top: 24px;
+    margin-bottom: 0;
+    max-width: 288px;
+  }
+
+  .about__author {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0;
+    text-align: right;
+    margin-top: 7px;
+    margin-bottom: 0;
+    max-width: 288px;
+    max-height: 34px;
+  }
+
+  .about__description {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    letter-spacing: 0;
+    margin-top: 32px;
+    margin-bottom: 0;
+  }
 }
