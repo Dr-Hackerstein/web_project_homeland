@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   width: 984px;
-  max-height: auto;
+  max-height: none;
   margin: 0;
   margin-top: 80px;
   color: white;
@@ -90,7 +90,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   max-width: 484px;
 }
 
@@ -171,7 +171,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 25px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     max-width: 352px;
   }
 }
@@ -252,7 +252,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 25px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     max-width: 288px;
   }
 }
@@ -304,7 +304,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 25px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     max-width: 288px;
   }
 
