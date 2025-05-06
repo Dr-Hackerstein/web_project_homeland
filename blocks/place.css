@@ -30,6 +30,10 @@
   margin-top: 48px;
 }
 
+.place__image:hover {
+  opacity: 0.5;
+}
+
 .place__button {
   font-weight: 500;
   font-size: 16px;
@@ -48,12 +52,12 @@
   max-height: 48px;
 }
 
-.place__button:hover {
-  background-color: transparent;
-  color: #ffffff;
-  border-color: #ffffff;
-  transform: scale(1.05);
-  box-shadow: 0 0 12px rgba(255, 255, 255, 0.3);
+.button:hover {
+  background-image: linear-gradient(
+    90deg,
+    rgba(2, 120, 254, 0.25) 0%,
+    rgba(0, 58, 123, 0.25) 99.98%
+  );
 }
 
 .place__right {
