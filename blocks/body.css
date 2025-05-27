@@ -8,14 +8,9 @@
   padding: 0;
   background: #2a2c2f;
   max-width: 100%;
+  overflow-x: hidden;
 }
 
 * {
   box-sizing: border-box;
-}
-
-@media screen and (max-width: 320px) {
-  body {
-    overflow-x: hidden;
-  }
 }

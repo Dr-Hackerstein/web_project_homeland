@@ -20,6 +20,7 @@
 
 @media screen and (max-width: 767px) {
   .page {
+    max-width: 750px;
     width: 100%;
     min-width: 320px;
     margin: 0 auto;

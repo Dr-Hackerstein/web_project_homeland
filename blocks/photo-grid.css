@@ -30,6 +30,7 @@
 
 @media screen and (max-width: 320px) {
   .photo-grid {
+    max-width: 300px;
     width: 100%;
     grid-template-columns: 1fr;
     margin: 38px 0;
