@@ -3,6 +3,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   width: 984px;
+  width: 100%;
   max-height: none;
   margin: 0 auto;
   margin-top: 80px;
